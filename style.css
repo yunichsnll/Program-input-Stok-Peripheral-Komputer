@@ -1,0 +1,91 @@
+body{
+	background-image: url('gambar/bgg.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+h1 b{
+	font-size: 30px;
+}
+form{
+    font-family: comic sans ms;
+    font-size: 12pt;
+    color: white; 
+}
+
+label{
+    font-weight: bold;
+}
+
+table{
+    width: 50%;
+    margin: 15px auto;
+    
+    font-family: comic sans ms;
+    font-size: 10pt;
+    color: white;
+}
+
+table.list{
+    text-align: center;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+td{
+    border: 1px solid white;
+    text-align: center;
+    padding: 8px 15px;
+}
+
+input[type="text"],input[type="number"]{
+    width:30%;
+    padding:12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid rgb(165,161,161);
+    border-radius: 4px;
+    font-size: 10pt;
+    font-family: comic sans ms;
+    text-align: center;
+}
+
+input[type="submit"],input[type="reset"]{
+    background: #eee;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 10pt;
+    font-family: comic sans ms;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+    color: darkblue;
+}
+
+input[type="submit"]:hover{
+    background: #4b99d8;
+}
+
+input[type="reset"]:hover{
+    background: #4b99d8;
+}
+
+button{
+    background: #eee;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover{
+    background:#4b99d8 ;
+}

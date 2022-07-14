@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PRODAS YUNI</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1 align="center"><form color="white" face="tahoma"><b>INPUT STOK PERIPHERAL<br>TOKO KOMPUTER YUNCK</form><br><img src="gambar/LOGO.png" width="100" height="100"></h1>
+	<table>
+		<tr>
+			<td>
+				<form autocomplete="off" onsubmit="onFormSubmit()">
+					<div align="center">
+						<label for="productCode"><b>Kode Barang</b></label><br>
+						<input type="text" name="productCode" id="productCode" required>
+					</div>
+					<div align="center">
+						<label for="product"><b>Nama Barang</b></label><br>
+						<input type="text" name="product" id="product" required>
+					</div>
+					<div align="center">
+						<label for="qty"><b>Jumlah Barang</b></label><br>
+						<input type="number" name="qty" id="qty" required>
+					</div>
+					<div align="center">
+						<label for="perPrice"><b>Harga Barang</b></label><br>
+						<input type="number" name="perPrice" id="perPrice" required>
+					</div>
+
+					<div class="form_action--button" align="center">
+						<input type="submit" value="simpan">
+						<input type="reset" value="batal">
+					</div>
+				</form>
+			</td>
+		</tr>
+	</table>
+	<table>
+		<tr>
+			<td valign="top">
+				<table class="list" id="storeList">
+					<thead>
+						<tr>
+							<th>Kode Barang</th>
+							<th>Nama Barang</th>
+							<th>Jumlah Barang</th>
+							<th>Harga Barang</th>
+							<th>Total</th>
+							<th>Diskon</th>
+							<th>Bayar</th>
+						</tr>
+					</thead>
+					<tbody>
+						
+					</tbody>
+				</table>
+			</td>
+		</tr>
+	</table>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
